@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <table border="1" cellspacing="0">
+            <tr>
+                <td colspan="4" id="display">0</td>
+            </tr>
+            <tr>
+                <td colspan="3"><button  id="clear" onclick="pushBtn(this)">AC</button></td>
+                <td><button id="divide" onclick="pushBtn(this)">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven" onclick="pushBtn(this)">7</button></td>
+                <td><button id="eight" onclick="pushBtn(this)">8</button></td>
+                <td><button id="nine" onclick="pushBtn(this)">9</button></td>
+                <td><button id="multiply" onclick="pushBtn(this)">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="four" onclick="pushBtn(this)">4</button></td>
+                <td><button id="five" onclick="pushBtn(this)">5</button></td>
+                <td><button id="six" onclick="pushBtn(this)">6</button></td>
+                <td><button id="subtract" onclick="pushBtn(this)">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="one" onclick="pushBtn(this)">1</button></td>
+                <td><button id="two" onclick="pushBtn(this)">2</button></td>
+                <td><button id="three" onclick="pushBtn(this)">3</button></td>
+                <td><button id="add" onclick="pushBtn(this)">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="zero" onclick="pushBtn(this)">0</button></td>
+                <td><button id="decimal" onclick="pushBtn(this)">.</button></td>
+                <td><button id="equals" onclick="pushBtn(this)">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
